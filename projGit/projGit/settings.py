@@ -55,7 +55,7 @@ ROOT_URLCONF = 'projGit.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': ['templates/djangoApp'],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
